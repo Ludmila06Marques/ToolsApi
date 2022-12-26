@@ -84,7 +84,6 @@ As rotas se iniciarao por /tools
 
 `Deletar uma tools pelo id  , onde esse id nao existe`
 
-+ Request ( /tools/:id')
++ Request ( /tools/:id)
 
 + Response 404  message: Tool not found
-

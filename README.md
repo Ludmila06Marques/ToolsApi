@@ -1,11 +1,13 @@
 # ToolsApi
 PASSO A PASSO PARA RODAR O PROJETO
 
-+ Substituir o .env example com as suas credenciais 
-+ Baxar o projeto com npm i
-+ Rodar o comando npm run build para criar o banco de dados e o seed
-+ Rodar o comando npm run dev para subir o servidor 
-+ Caso queira pode rodar o comando npx prisma studio para ter uma interface da sua DB
++ Substituir o `.env example` com as suas credenciais parar criar o `.env`
++ Baxar o projeto com `npm i`
++ Rodar o comando `npm run build` para criar o banco de dados e o seed
++ Rodar o comando `npm run dev` para subir o servidor 
++ Caso queira pode rodar o comando `npx prisma studio` para ter uma interface da sua DB
++ Para rodar os testes é necessario um `.env.test` , que é igual ao .env normal
++ Rodar o comando `npm run test -- -i --coverage` para verificar os testes de integracao e unitarios
 
 
 
@@ -85,3 +87,4 @@ As rotas se iniciarao por /tools
 + Request ( /tools/:id')
 
 + Response 404  message: Tool not found
+

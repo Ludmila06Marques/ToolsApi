@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1672067204251" clover="3.2.0">
-  <project timestamp="1672067204251" name="All files">
-    <metrics statements="77" coveredstatements="76" conditionals="6" coveredconditionals="6" methods="10" coveredmethods="10" elements="93" coveredelements="92" complexity="0" loc="77" ncloc="77" packages="8" files="10" classes="10"/>
+<coverage generated="1672173716681" clover="3.2.0">
+  <project timestamp="1672173716681" name="All files">
+    <metrics statements="79" coveredstatements="77" conditionals="7" coveredconditionals="6" methods="10" coveredmethods="10" elements="96" coveredelements="93" complexity="0" loc="79" ncloc="79" packages="8" files="10" classes="10"/>
     <package name="src">
       <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="index.ts" path="/home/ludmila/Projetos_base/base3/src/index.ts">
@@ -20,9 +20,9 @@
       </file>
     </package>
     <package name="src.controllers">
-      <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <metrics statements="14" coveredstatements="13" conditionals="1" coveredconditionals="0" methods="3" coveredmethods="3"/>
       <file name="toolsController.ts" path="/home/ludmila/Projetos_base/base3/src/controllers/toolsController.ts">
-        <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <metrics statements="14" coveredstatements="13" conditionals="1" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="2" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
         <line num="9" count="2" type="stmt"/>
@@ -33,8 +33,10 @@
         <line num="17" count="4" type="stmt"/>
         <line num="20" count="1" type="stmt"/>
         <line num="21" count="1" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="23" count="1" type="stmt"/>
+        <line num="22" count="1" type="cond" truecount="0" falsecount="1"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.dbStrategy">

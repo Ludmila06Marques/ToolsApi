@@ -11,7 +11,8 @@ let toolsData=[
     "planning",
     "collaboration",
     "writing",
-    "calendar"
+    "calendar",
+    "oi"
     ]
     },
     {

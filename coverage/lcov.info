@@ -39,10 +39,13 @@ DA:17,4
 DA:20,1
 DA:21,1
 DA:22,1
-DA:23,1
-LF:12
-LH:12
-BRF:0
+DA:23,0
+DA:25,1
+DA:26,1
+LF:14
+LH:13
+BRDA:22,0,0,0
+BRF:1
 BRH:0
 end_of_record
 TN:

@@ -67,7 +67,7 @@ As rotas se iniciarao por /tools
         "tags": [ 'web', 'framework', 'node', 'http2', 'https', 'localhost' , 'test','test','test']
         }
 
-+ Response 422 message: Wrong schema
++ Response 422 message: Wrong schema ou 409 Conflict
 
 ## Deletar uma tool [DELETE]
 `Deletar uma tools pelo id corretamente`
